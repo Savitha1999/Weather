@@ -1,0 +1,14 @@
+.container-fluid
+{
+    background-image: url("../images/cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.table th
+{
+    padding: 20px;
+    background-color: purple;
+    color: white;
+}

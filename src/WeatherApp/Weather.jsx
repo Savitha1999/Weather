@@ -84,7 +84,7 @@ export default function Weather()
   useEffect(() => 
     {
     // Filter data based on search query
-    
+
     if (searchQuery.trim() === '') {
       setFilteredData(weatherData.filter(({ state }) => state === 'Tamil Nadu'));
     } else {
@@ -202,7 +202,7 @@ export default function Weather()
                 </tbody>
               </table>
 
-              <h2 className='p-2 text-warning'> 🗓️ Past 10 Days Data</h2>
+              <h2 className='p-2 text-warning' style={{fontWeight:"bold"}} > 🗓️ Past 10 Days Data</h2>
               <table className='table table-bordered mt-3 text-center'>
                 <thead>
                   <tr>
